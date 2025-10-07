@@ -1,16 +1,16 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
-import Home from '@/pages/Home';
-import CallForPapersPage from '@/pages/CallForPapersPage';
-import CallForSpecialSessionPage from '@/pages/CallForSpecialSessionPage';
-import SubmissionPage from '@/pages/SubmissionPage';
-import RegistrationPage from '@/pages/RegistrationPage';
-import CommitteePage from '@/pages/CommitteePage';
-import ContactPage from '@/pages/ContactPage';
-import ImportantDatesPage from '@/pages/ImportantDatesPage';
-import KeynoteSpeakersPage from '@/pages/KeynoteSpeakersPage';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Home from './pages/Home';
+import CallForPapersPage from './pages/CallForPapersPage';
+import CallForSpecialSessionPage from './pages/CallForSpecialSessionPage';
+import SubmissionPage from './pages/SubmissionPage';
+import RegistrationPage from './pages/RegistrationPage';
+import CommitteePage from './pages/CommitteePage';
+import ContactPage from './pages/ContactPage';
+import ImportantDatesPage from './pages/ImportantDatesPage';
+import KeynoteSpeakersPage from './pages/KeynoteSpeakersPage';
 
 function App() {
   return (
